@@ -2864,7 +2864,7 @@ h4 span {
 }
 
 .hero_section .hero_text h1 {
-  color: #102b3e;
+  /* color: #102b3e; */
   text-transform: uppercase;
   font-size: 6rem;
 }
