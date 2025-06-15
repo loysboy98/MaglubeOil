@@ -1,0 +1,1312 @@
+@font-face {
+  font-family: "ConthraxSb";
+  src: url("../fonts/ConthraxSb-Regular.eot");
+  src: url("../fonts/ConthraxSb-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ConthraxSb-Regular.woff2") format("woff2"), url("../fonts/ConthraxSb-Regular.woff") format("woff"), url("../fonts/ConthraxSb-Regular.ttf") format("truetype"), url("../fonts/ConthraxSb-Regular.svg#ConthraxSb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eurostile LT Pro Unicode";
+  src: url("../fonts/EurostileLTProUnicode.eot");
+  src: url("../fonts/EurostileLTProUnicode.eot?#iefix") format("embedded-opentype"), url("../fonts/EurostileLTProUnicode.woff2") format("woff2"), url("../fonts/EurostileLTProUnicode.woff") format("woff"), url("../fonts/EurostileLTProUnicode.ttf") format("truetype"), url("../fonts/EurostileLTProUnicode.svg#EurostileLTProUnicode") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Eurostile LT Pro Unicode";
+}
+* img {
+  width: 100%;
+}
+
+.hero_section {
+  height: 80vh;
+  width: 100%;
+}
+.hero_section .hero_text {
+  height: 100%;
+  width: 100%;
+  padding-inline: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero_section .hero_text h1 {
+  color: #102b3e;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+.hero_section .hero_text h1 span {
+  color: #A49D00;
+}
+.hero_section .hero_text h5 {
+  width: 50%;
+  color: #102b3e;
+  line-height: 1.8;
+  margin-top: 3%;
+}
+
+.blinding_tabs_section .nav-tabs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-inline: 5%;
+  border: 0;
+  height: 12vh;
+}
+.blinding_tabs_section .nav-tabs .nav-item {
+  border: 0;
+  width: 20%;
+  margin-inline: 2%;
+}
+.blinding_tabs_section .nav-tabs .nav-item .nav-link {
+  border: 0;
+  width: 100%;
+  color: #001D2F;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  border-radius: 5px;
+}
+.blinding_tabs_section .nav-tabs .nav-item .nav-link:hover {
+  background-color: rgba(164, 157, 0, 0.5);
+  color: #102b3e;
+}
+.blinding_tabs_section .nav-tabs .nav-item .nav-link .second-title {
+  font-size: 1.6rem !important;
+}
+.blinding_tabs_section .nav-tabs .nav-item .active {
+  color: white;
+  background-color: #102b3e;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid {
+  padding: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text h2 {
+  color: #102b3e;
+  width: 90%;
+  font-size: 3rem;
+  line-height: 1.8;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col p {
+  padding-right: 10%;
+  font-size: 1.4rem;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table tbody tr td {
+  padding-block: 1%;
+  font-size: 1.2rem;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table tbody tr td img {
+  width: 24px;
+  height: 24px;
+  margin-right: 3%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table tbody tr td p {
+  font-size: 1.2rem !important;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_title {
+  z-index: 55;
+  padding-inline: 5%;
+  height: 11vh;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row {
+  height: 100vh !important;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container {
+  width: 90%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container img {
+  z-index: 5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .topRight {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #A49D00;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .bottomLeft {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #A49D00;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img::after {
+  content: url(../images/technical_oil.png);
+  position: absolute;
+  bottom: -80%;
+  left: -40%;
+  width: 75%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col h2 {
+  color: #A49D00;
+  font-size: 3rem;
+  padding-bottom: 10%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #102b3e;
+  padding-bottom: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p img {
+  width: 24px;
+  height: 24px;
+  -webkit-margin-before: 1.4%;
+          margin-block-start: 1.4%;
+  -webkit-margin-end: 5%;
+          margin-inline-end: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title {
+  height: 30vh;
+  padding-inline: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 555;
+  margin-top: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title h2 {
+  color: #A49D00;
+  font-size: 3rem;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text p {
+  font-size: 1.4rem;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table tbody tr td {
+  padding-block: 1%;
+  font-size: 1.2rem;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table tbody tr td img {
+  width: 24px;
+  height: 24px;
+  margin-right: 3%;
+  margin-block: auto;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table tbody tr td p {
+  font-size: 1.2rem !important;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col {
+  position: relative;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col::after {
+  content: url("../images/bigOil.png");
+  position: absolute;
+  left: -200%;
+  bottom: -45%;
+  width: 75%;
+  z-index: -1;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col img {
+  width: 5%;
+  margin-right: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .years_row {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .years_row .years_text p {
+  font-size: 1.4rem;
+  color: #102b3e;
+  line-height: 1.8;
+}
+.blinding_tabs_section .tab-content .logistical-tab .photo {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.blinding_tabs_section .tab-content .logistical-tab .photo .photo_container {
+  width: 94%;
+  height: 90%;
+  z-index: 5;
+}
+.blinding_tabs_section .tab-content .logistical-tab .photo .photo_container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 5;
+}
+.blinding_tabs_section .tab-content .logistical-tab .photo .topRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #A49D00;
+  width: 45%;
+  height: 45%;
+  z-index: 1;
+}
+.blinding_tabs_section .tab-content .logistical-tab .photo .bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #A49D00;
+  width: 45%;
+  height: 45%;
+  z-index: 1;
+}
+.blinding_tabs_section .tab-content .logistical-tab .map_title {
+  text-align: center;
+  padding-top: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .map_title h2 {
+  color: #102b3e;
+  text-transform: uppercase;
+}
+.blinding_tabs_section .tab-content .logistical-tab .map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-block: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .map .row .col p {
+  color: #102b3e;
+  font-size: 1.4rem;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_title {
+  padding-top: 3%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_title h2 {
+  color: #A49D00;
+  font-size: 3rem;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row img {
+  -webkit-margin-end: 1%;
+          margin-inline-end: 1%;
+  width: 24px;
+  height: 24px;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row table {
+  padding-inline: 5%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td {
+  padding-block: 1%;
+  font-size: 1.2rem;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td img {
+  width: 2%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td p {
+  font-size: 1.2rem !important;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td p img {
+  -webkit-margin-end: 1%;
+          margin-inline-end: 1%;
+  width: 2%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row .col img {
+  width: 6%;
+  margin-right: 3%;
+}
+.blinding_tabs_section .tab-content .logistical-tab .logistical_row .col p {
+  margin: 0;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid {
+  padding: 5%;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row {
+  padding: 3%;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .title h2 {
+  color: #A49D00;
+  font-size: 3rem;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .desc {
+  padding-top: 3%;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .desc p {
+  color: #102b3e;
+  font-size: 1.4rem;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container {
+  position: relative;
+  width: 90%;
+  height: 50vh;
+  z-index: 5;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container .topright {
+  position: absolute;
+  top: -5%;
+  right: -3%;
+  width: 45%;
+  height: 45%;
+  background-color: #A49D00;
+  z-index: -1;
+}
+.blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container .bottomLeft {
+  position: absolute;
+  bottom: -5%;
+  left: -3%;
+  width: 45%;
+  height: 45%;
+  background-color: #A49D00;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .hero_section .hero_text h1 {
+    color: #102b3e;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .hero_section .hero_text h5 {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .nav-tabs {
+    padding: 0;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item {
+    width: 28%;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .nav-link .second-title {
+    font-size: 0.9rem !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid {
+    padding: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text h2 {
+    color: #102b3e;
+    width: 90%;
+    font-size: 3rem;
+    line-height: 1.8;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col p {
+    padding-right: 10%;
+    font-size: 1.4rem !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table tbody tr td img {
+    width: 8%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_title {
+    z-index: 55;
+    padding-inline: 5%;
+    height: 11vh;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container {
+    width: 94%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container img {
+    z-index: 5;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .topRight {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .bottomLeft {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img::after {
+    content: url(../images/technical_oil.png);
+    position: absolute;
+    bottom: -80%;
+    left: -40%;
+    width: 75%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+    padding-bottom: 10%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p {
+    line-height: 1.8;
+    font-size: 1.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p img {
+    width: 6%;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title {
+    height: 30vh;
+    padding-inline: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 555;
+    margin-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table tbody tr td img {
+    width: 8%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text p {
+    font-size: 1rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col {
+    position: relative;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col::after {
+    content: url("../images/bigOil.png");
+    position: absolute;
+    left: -200%;
+    bottom: -45%;
+    width: 75%;
+    z-index: -1;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col img {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .years_row .years_text p {
+    font-size: 1.2rem !important;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo {
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title h2 {
+    color: #102b3e;
+    text-transform: uppercase;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-block: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map .row .col p {
+    color: #102b3e;
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title {
+    padding-top: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td img {
+    width: 4%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col img {
+    width: 6%;
+    margin-right: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col p {
+    margin: 0;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col {
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container {
+    width: 96%;
+  }
+}
+@media (max-height: 641px) {
+  .blinding_tabs_section .nav-tabs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-inline: 5%;
+    border: 0;
+    height: 12vh;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item {
+    border: 0;
+    width: 25%;
+    margin-right: 0%;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .nav-link {
+    border: 0;
+    width: 100%;
+    color: #001D2F;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    border-radius: 5px;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .nav-link:hover {
+    background-color: rgba(164, 157, 0, 0.5);
+    color: #102b3e;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .nav-link .second-title {
+    font-size: 1.2rem !important;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .active {
+    color: white;
+    background-color: #102b3e;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid {
+    padding: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text h2 {
+    color: #102b3e;
+    width: 90%;
+    font-size: 3rem;
+    line-height: 1.8;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col p {
+    padding-right: 10%;
+    font-size: 1.6rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_title {
+    z-index: 55;
+    padding-inline: 5%;
+    height: 11vh;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row {
+    height: 100vh !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container {
+    width: 90%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container img {
+    z-index: 5;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .topRight {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .bottomLeft {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img::after {
+    content: url(../images/technical_oil.png);
+    position: absolute;
+    bottom: -80%;
+    left: -40%;
+    width: 75%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p {
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title {
+    height: 30vh;
+    padding-inline: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 555;
+    margin-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title h2 {
+    color: #A49D00;
+    font-size: 3rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text p {
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col {
+    position: relative;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col::after {
+    content: url("../images/bigOil.png");
+    position: absolute;
+    left: -200%;
+    bottom: -45%;
+    width: 75%;
+    z-index: -1;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col img {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .spacer {
+    width: 100%;
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .years_row {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .years_row .years_text p {
+    font-size: 1.2rem;
+    color: #102b3e;
+    line-height: 1.8;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo {
+    height: 90vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo .photo_container {
+    width: 94%;
+    height: 90%;
+    z-index: 5;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo .photo_container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 5;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo .topRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #A49D00;
+    width: 45%;
+    height: 45%;
+    z-index: 1;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo .bottomLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #A49D00;
+    width: 45%;
+    height: 45%;
+    z-index: 1;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title h2 {
+    color: #102b3e;
+    text-transform: uppercase;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-block: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map .row .col p {
+    color: #102b3e;
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title {
+    padding-top: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title h2 {
+    color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col img {
+    width: 6%;
+    margin-right: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col p {
+    margin: 0;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid {
+    padding: 5%;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row {
+    padding: 3%;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .title h2 {
+    color: #A49D00;
+    font-size: 3rem;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .desc {
+    padding-top: 3%;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .desc p {
+    color: #102b3e;
+    font-size: 1rem;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container {
+    position: relative;
+    width: 90%;
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container img {
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container .topright {
+    position: absolute;
+    top: -5%;
+    right: -3%;
+    width: 45%;
+    height: 45%;
+    background-color: #A49D00;
+    z-index: -1;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col .img_container .bottomLeft {
+    position: absolute;
+    bottom: -5%;
+    left: -3%;
+    width: 45%;
+    height: 45%;
+    background-color: #A49D00;
+    z-index: -1;
+  }
+}
+@media (max-width: 500px) {
+  .blinding_tabs_section .nav-tabs .nav-item {
+    width: 30%;
+  }
+  .blinding_tabs_section .nav-tabs .nav-item .nav-link .second-title {
+    font-size: 0.8rem !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid {
+    padding: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .text h2 {
+    color: #102b3e;
+    width: 90%;
+    font-size: 3rem;
+    line-height: 1.8;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col p {
+    padding-right: 10%;
+    font-size: 1.4rem !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .technical_row .col table tbody tr td img {
+    width: 14%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_title {
+    z-index: 55;
+    padding-inline: 5%;
+    height: 11vh;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container {
+    width: 90%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .img_container img {
+    z-index: 5;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .topRight {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img .bottomLeft {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #A49D00;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .process_img::after {
+    content: url(../images/technical_oil.png);
+    position: absolute;
+    bottom: -80%;
+    left: -40%;
+    width: 75%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col {
+    padding-inline: 5% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+    padding-bottom: 10%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p {
+    line-height: 1.8;
+    font-size: 1.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .process_row .col p img {
+    width: 24px;
+    height: 24px;
+    -webkit-margin-end: 5%;
+            margin-inline-end: 5%;
+    -webkit-margin-before: 2%;
+            margin-block-start: 2%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title {
+    height: 30vh;
+    padding-inline: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 555;
+    margin-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text {
+    padding-inline: 5%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text p {
+    font-size: 1rem;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .filling_text table tbody tr td img {
+    width: 14%;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col {
+    position: relative;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_row .bottols_col::after {
+    content: url("../images/bigOil.png");
+    position: absolute;
+    left: -200%;
+    bottom: -45%;
+    width: 75%;
+    z-index: -1;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .blinding_tabs_section .tab-content .technical-tab .container-fluid .filling_list .col img {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .years_row .years_text p {
+    font-size: 1.2rem !important;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .photo {
+    height: 50vh;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map_title h2 {
+    color: #102b3e;
+    text-transform: uppercase;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-block: 5%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .map .row .col p {
+    color: #102b3e;
+    font-size: 1.2rem;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title {
+    padding-top: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row table tbody tr td img {
+    width: 14%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col img {
+    width: 6%;
+    margin-right: 3%;
+  }
+  .blinding_tabs_section .tab-content .logistical-tab .logistical_row .col p {
+    margin: 0;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .col .title h2 {
+    color: #A49D00;
+    font-size: 2.4rem;
+  }
+  .blinding_tabs_section .tab-content .case-tab .container-fluid .row .img_col {
+    height: 50vh;
+  }
+}
